@@ -1,6 +1,4 @@
-# Your GitHub Profile
-
-```ansi
+Your GitHub Profile
 [38;5;15m<p align="center">[0m
 [38;5;172m  ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄       ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
 [38;5;172m █▀▀▀▀▀▀▀▀▀▀▀▀▀▀█─────>█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█[0m
@@ -31,128 +29,125 @@
 [38;5;172m                    █▄▄▄▄▄▄▄▄▄▄█ └─┘ █▄▄▄▄▄▄▄▄▄▄█ █▄▄▄▄▄▄▄▄▄▄█[0m
 [38;5;172m[0m
 [38;5;172m</p>[0m
-```
-```rust
+
 [38;5;154m$[0m [38;5;228muser@dev[0m:[38;5;154m~[0m/[38;5;228mprofile[0m$ [0m
+```rust
+// A software engineer and curious problem-solver with a strong passion for
+// systems-level programming, concurrent data structures, and robust security.
+// I am focused on building efficient, reliable, and scalable applications.
+// My journey is driven by the desire to understand and build complex systems
+// from the ground up, whether it's a high-performance backend service or a
+// secure embedded system.
 
-// [38;5;243mA software engineer and curious problem-solver with a strong passion for[0m
-// [38;5;243msystems-level programming, concurrent data structures, and robust security.[0m
-// [38;5;243mI am focused on building efficient, reliable, and scalable applications.[0m
-// [38;5;243mMy journey is driven by the desire to understand and build complex systems[0m
-// [38;5;243mfrom the ground up, whether it's a high-performance backend service or a[0m
-// [38;5;243msecure embedded system.[0m
-
-[38;5;199mfn[0m [38;5;214mget_profile[0m() -> [38;5;154mProfile[0m {
-    [38;5;154mProfile[0m {
-        [38;5;255mname[0m: [38;5;154mString[0m::[38;5;214mfrom[0m([38;5;228m"Cristiano S R Filho"[0m),
-        [38;5;255mfocus[0m: [38;5;199mvec![0m[
-            [38;5;154mString[0m::[38;5;214mfrom[0m([38;5;228m"Systems Programming"[0m),
-            [38;5;154mString[0m::[38;5;214mfrom[0m([38;5;228m"Cybersecurity"[0m),
-            [38;5;154mString[0m::[38;5;214mfrom[0m([38;5;228m"IoT"[0m),
-            [38;5;154mString[0m::[38;5;214mfrom[0m([38;5;228m"Embedded Systems"[0m),
-            [38;5;154mString[0m::[38;5;214mfrom[0m([38;5;228m"Mathematical Modeling"[0m),
+fn get_profile() -> Profile {
+    Profile {
+        name: String::from("Cristiano S R Filho"),
+        focus: vec![
+            String::from("Systems Programming"),
+            String::from("Cybersecurity"),
+            String::from("IoT"),
+            String::from("Embedded Systems"),
+            String::from("Mathematical Modeling"),
         ],
-        [38;5;255mprojects[0m: [38;5;154mString[0m::[38;5;214mfrom[0m([38;5;228m"See pinned repositories for my latest work."[0m),
-        [38;5;255mlearning_goals[0m: [38;5;199mvec![0m[
-            [38;5;154mString[0m::[38;5;214mfrom[0m([38;5;228m"Advanced cryptography"[0m),
-            [38;5;154mString[0m::[38;5;214mfrom[0m([38;5;228m"Distributed systems design"[0m),
-            [38;5;154mString[0m::[38;5;214mfrom[0m([38;5;228m"Formal methods"[0m),
+        projects: String::from("See pinned repositories for my latest work."),
+        learning_goals: vec![
+            String::from("Advanced cryptography"),
+            String::from("Distributed systems design"),
+            String::from("Formal methods"),
         ],
-        [38;5;255mavailability[0m: [38;5;154mString[0m::[38;5;214mfrom[0m([38;5;228m"Open to collaboration on interesting projects."[0m),
+        availability: String::from("Open to collaboration on interesting projects."),
     }
 }
 
-[38;5;199mpub[0m [38;5;199mstruct[0m [38;5;154mProfile[0m {
-    [38;5;255mname[0m: [38;5;154mString[0m,
-    [38;5;255mfocus[0m: [38;5;154mVec[0m<[38;5;154mString[0m>,
-    [38;5;255mprojects[0m: [38;5;154mString[0m,
-    [38;5;255mlearning_goals[0m: [38;5;154mVec[0m<[38;5;154mString[0m>,
-    [38;5;255mavailability[0m: [38;5;154mString[0m,
+pub struct Profile {
+    name: String,
+    focus: Vec<String>,
+    projects: String,
+    learning_goals: Vec<String>,
+    availability: String,
 }
-
+```
 [38;5;154m$[0m [38;5;228muser@dev[0m:[38;5;154m~[0m/[38;5;228mskills[0m$ [0m
+```rust
+// My skills are honed through practical experience in various domains,
+// from low-level systems engineering to high-level application development.
+use std::collections::HashMap;
 
-// [38;5;243mMy skills are honed through practical experience in various domains,[0m
-// [38;5;243mfrom low-level systems engineering to high-level application development.[0m
-[38;5;199muse[0m [38;5;154mstd[0m::[38;5;154mcollections[0m::[38;5;154mHashMap[0m;
-
-[38;5;199mstruct[0m [38;5;154mSkills[0m {
-    [38;5;255msystems[0m: [38;5;154mHashMap[0m<[38;5;154mString[0m, [38;5;154mString[0m>,
-    [38;5;255mweb[0m: [38;5;154mHashMap[0m<[38;5;154mString[0m, [38;5;154mString[0m>,
-    [38;5;255mcybersecurity[0m: [38;5;154mHashMap[0m<[38;5;154mString[0m, [38;5;154mString[0m>,
+struct Skills {
+    systems: HashMap<String, String>,
+    web: HashMap<String, String>,
+    cybersecurity: HashMap<String, String>,
 }
 
-[38;5;199mimpl[0m [38;5;154mSkills[0m {
-    [38;5;199mfn[0m [38;5;214mnew[0m() -> [38;5;199mSelf[0m {
-        [38;5;199mlet[0m [38;5;199mmut[0m [38;5;255msystems[0m = [38;5;154mHashMap[0m::[38;5;214mnew[0m();
-        [38;5;255msystems[0m.[38;5;214minsert[0m(
-            [38;5;154mString[0m::[38;5;214mfrom[0m([38;5;228m"Rust"[0m),
-            [38;5;154mString[0m::[38;5;214mfrom[0m([38;5;228m"Building robust, concurrent, and high-performance applications with a focus on safety and memory management. Experience with async/await, embedded systems, and creating CLI tools."[0m),
+impl Skills {
+    fn new() -> Self {
+        let mut systems = HashMap::new();
+        systems.insert(
+            String::from("Rust"),
+            String::from("Building robust, concurrent, and high-performance applications with a focus on safety and memory management. Experience with async/await, embedded systems, and creating CLI tools."),
         );
-        [38;5;255msystems[0m.[38;5;214minsert[0m(
-            [38;5;154mString[0m::[38;5;214mfrom[0m([38;5;228m"C/C++"[0m),
-            [38;5;154mString[0m::[38;5;214mfrom[0m([38;5;228m"Developing embedded firmware, high-performance computing components, and tackling complex performance challenges. I focus on writing clean, efficient, and well-documented low-level code."[0m),
+        systems.insert(
+            String::from("C/C++"),
+            String::from("Developing embedded firmware, high-performance computing components, and tackling complex performance challenges. I focus on writing clean, efficient, and well-documented low-level code."),
         );
-        [38;5;255msystems[0m.[38;5;214minsert[0m(
-            [38;5;154mString[0m::[38;5;214mfrom[0m([38;5;228m"Linux"[0m),
-            [38;5;154mString[0m::[38;5;214mfrom[0m([38;5;228m"Systems administration, scripting, and leveraging the command line for automation and development workflows."[0m),
-        );
-
-        [38;5;199mlet[0m [38;5;199mmut[0m [38;5;255mweb[0m = [38;5;154mHashMap[0m::[38;5;214mnew[0m();
-        [38;5;255mweb[0m.[38;5;214minsert[0m(
-            [38;5;154mString[0m::[38;5;214mfrom[0m([38;5;228m"Python"[0m),
-            [38;5;154mString[0m::[38;5;214mfrom[0m([38;5;228m"Backend development using frameworks like Django and Flask, data processing, automation, and scripting. I prioritize clean, readable, and maintainable code."[0m),
-        );
-        [38;5;255mweb[0m.[38;5;214minsert[0m(
-            [38;5;154mString[0m::[38;5;214mfrom[0m([38;5;228m"Networking"[0m),
-            [38;5;154mString[0m::[38;5;214mfrom[0m([38;5;228m"Understanding of TCP/IP, sockets, and network security principles. Building network applications and services."[0m),
+        systems.insert(
+            String::from("Linux"),
+            String::from("Systems administration, scripting, and leveraging the command line for automation and development workflows."),
         );
 
-        [38;5;199mlet[0m [38;5;199mmut[0m [38;5;255mcybersecurity[0m = [38;5;154mHashMap[0m::[38;5;214mnew[0m();
-        [38;5;255mcybersecurity[0m.[38;5;214minsert[0m(
-            [38;5;154mString[0m::[38;5;214mfrom[0m([38;5;228m"Ethical Hacking"[0m),
-            [38;5;154mString[0m::[38;5;214mfrom[0m([38;5;228m"Familiar with common vulnerabilities, penetration testing methodologies, and defensive programming."[0m),
+        let mut web = HashMap::new();
+        web.insert(
+            String::from("Python"),
+            String::from("Backend development using frameworks like Django and Flask, data processing, automation, and scripting. I prioritize clean, readable, and maintainable code."),
         );
-        [38;5;255mcybersecurity[0m.[38;5;214minsert[0m(
-            [38;5;154mString[0m::[38;5;214mfrom[0m([38;5;228m"Cryptography"[0m),
-            [38;5;154mString[0m::[38;5;214mfrom[0m([38;5;228m"Implementing cryptographic algorithms and understanding their principles for secure communication."[0m),
+        web.insert(
+            String::from("Networking"),
+            String::from("Understanding of TCP/IP, sockets, and network security principles. Building network applications and services."),
         );
 
-        [38;5;154mSkills[0m {
-            [38;5;255msystems[0m,
-            [38;5;255mweb[0m,
-            [38;5;255mcybersecurity[0m,
+        let mut cybersecurity = HashMap::new();
+        cybersecurity.insert(
+            String::from("Ethical Hacking"),
+            String::from("Familiar with common vulnerabilities, penetration testing methodologies, and defensive programming."),
+        );
+        cybersecurity.insert(
+            String::from("Cryptography"),
+            String::from("Implementing cryptographic algorithms and understanding their principles for secure communication."),
+        );
+
+        Skills {
+            systems,
+            web,
+            cybersecurity,
         }
     }
 }
 ```
-
-```rust
 [38;5;154m$[0m [38;5;228muser@dev[0m:[38;5;154m~[0m/[38;5;228mlanguages[0m$ [0m
-
-// [38;5;243mA passion for learning and using the right tool for the job.[0m
-[38;5;199mstruct[0m [38;5;154mLanguages[0m {
-    [38;5;255mrust[0m: [38;5;154mLanguageProficiency[0m {
-        [38;5;255mprojects[0m: [38;5;228m"systems, web backends, cli tools"[0m,
-        [38;5;255mlevel[0m: [38;5;228m"Intermediate"[0m,
+```rust
+// A passion for learning and using the right tool for the job.
+struct Languages {
+    rust: LanguageProficiency {
+        projects: "systems, web backends, cli tools",
+        level: "Intermediate",
     },
-    [38;5;255mpython[0m: [38;5;154mLanguageProficiency[0m {
-        [38;5;255mprojects[0m: [38;5;228m"web, data science, scripting"[0m,
-        [38;5;255mlevel[0m: [38;5;228m"Advanced"[0m,
+    python: LanguageProficiency {
+        projects: "web, data science, scripting",
+        level: "Advanced",
     },
-    [38;5;255mc_cpp[0m: [38;5;154mLanguageProficiency[0m {
-        [38;5;255mprojects[0m: [38;5;228m"embedded, high-performance, firmware"[0m,
-        [38;5;255mlevel[0m: [38;5;228m"Intermediate"[0m,
+    c_cpp: LanguageProficiency {
+        projects: "embedded, high-performance, firmware",
+        level: "Intermediate",
     },
-    [38;5;255mjavascript[0m: [38;5;154mLanguageProficiency[0m {
-        [38;5;255mprojects[0m: [38;5;228m"web development, scripting"[0m,
-        [38;5;255mlevel[0m: [38;5;228m"Beginner"[0m,
+    javascript: LanguageProficiency {
+        projects: "web development, scripting",
+        level: "Beginner",
     },
 }
 
-[38;5;199menum[0m [38;5;154mLanguageProficiency[0m {
-    [38;5;154mProjects[0m([38;5;154mString[0m),
-    [38;5;154mLevel[0m([38;5;154mString[0m),
+enum LanguageProficiency {
+    Projects(String),
+    Level(String),
 }
 ```
 "The first principle is that you must not fool yourself—and you are the easiest person to fool."
@@ -164,13 +159,14 @@
 — Henri Poincaré
 
 <p align="center">
-    <a href="https://github.com/cristiano-s-r-filho">
-        <img src="https://img.shields.io/github/followers/cristiano-s-r-filho?style=for-the-badge&logo=github&color=black&labelColor=white" alt="GitHub followers">
+    <a href="[https://github.com/cristiano-s-r-filho](https://github.com/cristiano-s-r-filho)">
+        <img src="[https://img.shields.io/github/followers/cristiano-s-r-filho?style=for-the-badge&logo=github&color=black&labelColor=white](https://img.shields.io/github/followers/cristiano-s-r-filho?style=for-the-badge&logo=github&color=black&labelColor=white)" alt="GitHub followers">
     </a>
-    <a href="https://linkedin.com/in/cristiano-s-r-filho">
-        <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+    <a href="[https://linkedin.com/in/cristiano-s-r-filho](https://linkedin.com/in/cristiano-s-r-filho)">
+        <img src="[https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)" alt="LinkedIn">
     </a>
 </p>
+
 
 
 
