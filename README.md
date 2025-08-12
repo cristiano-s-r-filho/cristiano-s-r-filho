@@ -114,33 +114,7 @@ impl Skills {
     }
 }
 ```
-## PS C:\Users\dev\languages>
-```rust
-// A passion for learning and using the right tool for the job.
-struct Languages {
-    rust: LanguageProficiency {
-        projects: "systems, web backends, cli tools",
-        level: "Intermediate",
-    },
-    python: LanguageProficiency {
-        projects: "web, data science, scripting",
-        level: "Advanced",
-    },
-    c_cpp: LanguageProficiency {
-        projects: "embedded, high-performance, firmware",
-        level: "Intermediate",
-    },
-    javascript: LanguageProficiency {
-        projects: "web development, scripting",
-        level: "Beginner",
-    },
-}
 
-enum LanguageProficiency {
-    Projects(String),
-    Level(String),
-}
-```
 "The first principle is that you must not fool yourself—and you are the easiest person to fool." —> Richard Feynman
 
 "The scientist does not study nature because it is useful; he studies it because he delights in it, and he delights in it because it is beautiful." —> Henri Poincaré
