@@ -1,42 +1,40 @@
-# <p align="center">
-#  <img src="https://i.imgur.com/rM1i6qf.png" width="400">
-# </p>
+# Your GitHub Profile
 
 ```ansi
 [38;5;15m<p align="center">[0m
-[38;5;172m                                         ▄▄▄▄▄▄▄▄▄        ▄▄▄▄▄▄▄▄▄[0m
-[38;5;172m                                        █▀▀▀▀▀▀▀█────────█▀▀▀▀▀▀▀█[0m
-[38;5;172m                                        █░SERVR░█▄▄▄▄▄▄▄▄█░SERVR░█[0m
-[38;5;172m                                        █▄▄▄▄▄▄▄█        █▄▄▄▄▄▄▄█[0m
-[38;5;172m                                            │    >          │[0m
-[38;5;172m                                            │      <      │[0m
-[38;5;172m                                            │              │[0m
-[38;5;172m                                            │         ┌────'[0m
-[38;5;172m  ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄       ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄ │        │[0m
-[38;5;172m █▀▀▀▀▀▀▀▀▀▀▀▀▀▀█─────>█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█─┴────────┘[0m
+[38;5;172m  ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄       ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
+[38;5;172m █▀▀▀▀▀▀▀▀▀▀▀▀▀▀█─────>█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█[0m
 [38;5;172m █░ATTACKER░░░░░█      █░░PROXY░░░░░░░░░░█[0m
 [38;5;172m █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█      █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█[0m
-[38;5;172m                                            │[0m
-[38;5;172m                                            │[0m
-[38;5;172m                                            ┌───────'[0m
-[38;5;172m     ▄▄▄▄▄▄▄▄▄▄                              │       [0m
-[38;5;172m    █▀▀▀▀▀▀▀▀▀▀█                             │       [0m
-[38;5;172m    █░WORKSTAT░█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
-[38;5;172m    █▄▄▄▄▄▄▄▄▄▄█                             │   █▀▀▀▀▀▀▀▀▀▀▀▀█   │[0m
-[38;5;172m                                            │   █▄▄▄▄▄▄▄▄▄▄▄▄▄█   │[0m
-[38;5;172m    ▄▄▄▄▄▄▄▄▄▄                              │   [ FIREWALL ]    │[0m
-[38;5;172m   █▀▀▀▀▀▀▀▀▀▀█                             └─┬─█▄▄▄▄▄▄▄▄▄▄▄▄▄█─┬─┘[0m
-[38;5;172m   █░WORKSTAT░█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄┴─┴▄▄▄▄▄▄▄▄▄▄▄▄▄┴─┴▄▄▄▄▄▄▄▄▄▄[0m
-[38;5;172m   █▄▄▄▄▄▄▄▄▄▄█                                 │ └─────┘ │[0m
-[38;5;172m                                                 │         │[0m
-[38;5;172m                                                 └─────────'[0m
-[38;5;172m    ▄▄▄▄▄▄▄▄▄▄                                     ┌────┘[0m
-[38;5;172m   █▀▀▀▀▀▀▀▀▀▀█                                    │[0m
-[38;5;172m   █░WORKSTAT░█────────────────────────────────────┤[0m
-[38;5;172m   █▄▄▄▄▄▄▄▄▄▄█                                    │[0m
+[38;5;172m           │                    │[0m
+[38;5;172m           └────────────────────┐[0m
+[38;5;172m                                │[0m
+[38;5;172m                                │[0m
+[38;5;172m                     ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄[0m
+[38;5;172m                    █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█[0m
+[38;5;172m                    █░░░░░░[ FIREWALL ]░░░░░░░█[0m
+[38;5;172m                    █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█[0m
+[38;5;172m                         │   │   │   │[0m
+[38;5;172m                         │   │   │   └───────────────────────┐[0m
+[38;5;172m                         │   │   └────────────┐              │[0m
+[38;5;172m                         │   └──────┐         │              │[0m
+[38;5;172m      ┌──────────────────┘          │         │              │[0m
+[38;5;172m      │           ▄▄▄▄▄▄▄▄▄▄        │         │        ▄▄▄▄▄▄▄▄▄▄[0m
+[38;5;172m      │          █▀▀▀▀▀▀▀▀▀▀█       │         │       █▀▀▀▀▀▀▀▀▀▀█[0m
+[38;5;172m      └─────>    █░WORKSTAT░█<────┐ │ <───────┴───────█░SERVR░█[0m
+[38;5;172m                 █▄▄▄▄▄▄▄▄▄▄█     │ │         │       █▄▄▄▄▄▄▄▄▄▄█[0m
+[38;5;172m                           │     │ │         │              │[0m
+[38;5;172m                           │     │ │         │              │[0m
+[38;5;172m                     ▄▄▄▄▄▄▄▄▄▄  │ │  ▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄[0m
+[38;5;172m                    █▀▀▀▀▀▀▀▀▀▀█ │ │ █▀▀▀▀▀▀▀▀▀▀█ █▀▀▀▀▀▀▀▀▀▀█[0m
+[38;5;172m                    █░WORKSTAT░█<┤ │<█░SERVR░█>─>█░WORKSTAT░█[0m
+[38;5;172m                    █▄▄▄▄▄▄▄▄▄▄█ └─┘ █▄▄▄▄▄▄▄▄▄▄█ █▄▄▄▄▄▄▄▄▄▄█[0m
+[38;5;172m[0m
 [38;5;172m</p>[0m
+```
 
-:computer: Profile
+## :computer: Profile
+```
 // A software engineer and curious problem-solver with a strong passion for
 // systems-level programming, concurrent data structures, and robust security.
 // I am focused on building efficient, reliable, and scalable applications.
@@ -71,37 +69,12 @@ pub struct Profile {
     learning_goals: Vec<String>,
     availability: String,
 }
-```ansi
-[38;5;172m                                                                                [0m
-[38;5;172m     .-----------.                                   .-----------.             [0m
-[38;5;172m    /   /       / \\                                 / \\       \\   \\          [0m
-38;5;172m   /   /       /   \\                               /   \\       \\   \\         [0m
-[38;5;172m  /   /       /     \\                             /     \\       \\   \\        [0m
-[38;5;172m /  .-----------.   |                           |   .-----------.  \\       [0m
-[38;5;172m|  /             \\  |                           |  /             \\  |      [0m
-[38;5;172m| /               \\ |                           | /               \\ |      [0m
-[38;5;172m`-------------------'                           `-------------------'      [0m
-[38;5;172m                                                                                [0m
-[38;5;172m    Rust, a language for building reliable and efficient software.            [0m
-[38;5;172m                                                                                [0m
-[38;5;172m                                                                                [0m
-[38;5;172m     .-----------.                                   .-----------.             [0m
-[38;5;172m    /   /       / \\                                 / \\       \\   \\          [0m
-[38;5;172m   /   /       /   \\                               /   \\       \\   \\         [0m
-[38;5;172m  /   /       /     \\                             /     \\       \\   \\        [0m
-[38;5;172m /  .-----------.   |                           |   .-----------.  \\       [0m
-[38;5;172m|  /             \\  |                           |  /             \\  |      [0m
-[38;5;172m| /               \\ |                           | /               \\ |      [0m
-[38;5;172m`-------------------'                           `-------------------'      [0m
-[38;5;172m                                                                                [0m
-
-
-
-:tools: Skills
+```
+## :tools: Skills
 // My skills are honed through practical experience in various domains,
 // from low-level systems engineering to high-level application development.
 use std::collections::HashMap;
-
+```
 struct Skills {
     systems: HashMap<String, String>,
     web: HashMap<String, String>,
@@ -130,13 +103,13 @@ impl Skills {
             String.from("Backend development using frameworks like Django and Flask, data processing, automation, and scripting. I prioritize clean, readable, and maintainable code."),
         );
         web.insert(
-            String.from("Networking"),
+            String::from("Networking"),
             String.from("Understanding of TCP/IP, sockets, and network security principles. Building network applications and services."),
         );
 
         let mut cybersecurity = HashMap::new();
         cybersecurity.insert(
-            String.from("Ethical Hacking"),
+            String::from("Ethical Hacking"),
             String.from("Familiar with common vulnerabilities, penetration testing methodologies, and defensive programming."),
         );
         cybersecurity.insert(
@@ -151,10 +124,9 @@ impl Skills {
         }
     }
 }
-
-
-
-:book: Languages
+```
+## :book: Languages
+```
 // A passion for learning and using the right tool for the job.
 struct Languages {
     rust: LanguageProficiency {
@@ -179,9 +151,7 @@ enum LanguageProficiency {
     Projects(String),
     Level(String),
 }
-
-
-
+```
 "The first principle is that you must not fool yourself—and you are the easiest person to fool."
 
 — Richard Feynman
@@ -191,13 +161,14 @@ enum LanguageProficiency {
 — Henri Poincaré
 
 <p align="center">
-    <a href="https://github.com/your-profile-url">
-        <img src="https://img.shields.io/github/followers/your-github-username?style=for-the-badge&logo=github&color=black&labelColor=white" alt="GitHub followers">
+    <a href="[https://github.com/your-profile-url](https://github.com/your-profile-url)">
+        <img src="[https://img.shields.io/github/followers/your-github-username?style=for-the-badge&logo=github&color=black&labelColor=white](https://img.shields.io/github/followers/your-github-username?style=for-the-badge&logo=github&color=black&labelColor=white)" alt="GitHub followers">
     </a>
-    <a href="https://linkedin.com/in/your-profile-url">
-        <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+    <a href="[https://linkedin.com/in/your-profile-url](https://linkedin.com/in/your-profile-url)">
+        <img src="[https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)" alt="LinkedIn">
     </a>
 </p>
+
 
 ## My Projects
 
