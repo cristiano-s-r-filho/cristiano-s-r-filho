@@ -1,6 +1,5 @@
 # Cristiano S.R.F. ---> A systems developer in the making... 
 ```rust
-"
                  ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
                 █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
                 █░░░░░░░░[ FIREWALL ]░░░░░░░░░█
@@ -21,7 +20,6 @@
   █▀▀▀▀▀▀▀▀▀▀▀▀█   █▀▀▀▀▀▀▀▀▀▀▀▀ █   █▀▀▀▀▀▀▀▀▀▀▀▀█
   █░WORKSTATION░█──█░DATA CENTER █──>█░WORKSTATION█
   █▄▄▄▄▄▄▄▄▄▄▄▄▄█  █▄▄▄▄▄▄▄▄▄▄▄▄▄█   █▄▄▄▄▄▄▄▄▄▄▄▄█
-"
 ```
 ## PS C:\Users\dev\profile>
 ```rust
