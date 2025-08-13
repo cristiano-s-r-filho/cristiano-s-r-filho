@@ -23,39 +23,39 @@
 ```
 ## PS C:\Users\dev\profile>
 ```rust
-// A software engineer and curious problem-solver with a strong passion for
-// systems-level programming, concurrent data structures, and robust security.
-// I am focused on building efficient, reliable, and scalable applications.
-// My journey is driven by the desire to understand and build complex systems
-// from the ground up, whether it's a high-performance backend service or a
-// secure embedded system.
+/// A software engineer and curious problem-solver with a strong passion for
+/// systems-level programming, concurrent data structures, and robust security.
+/// I am focused on building efficient, reliable, and scalable applications.
+/// My journey is driven by the desire to understand and build complex systems
+/// from the ground up, whether it's a high-performance backend service or a
+/// secure embedded system.
 
 fn get_profile() -> Profile {
     Profile {
-        name: String::from("Cristiano S R Filho"),
+        name: "Cristiano S. R. F.",
         focus: vec![
-            String::from("Systems Programming"),
-            String::from("Cybersecurity"),
-            String::from("IoT"),
-            String::from("Embedded Systems"),
-            String::from("Mathematical Modeling"),
+            "Systems Programming",
+            "Cybersecurity",
+            "IoT",
+            "Embedded Systems",
+            "Mathematical Modeling",
         ],
-        projects: String::from("See pinned repositories for my latest work."),
+        projects: "See pinned repositories for my latest work.",
         learning_goals: vec![
-            String::from("Advanced cryptography"),
-            String::from("Distributed systems design"),
-            String::from("Formal methods"),
+            "Advanced cryptography",
+            "Distributed systems design",
+            "Formal methods",
         ],
-        availability: String::from("Open to collaboration on interesting projects."),
+        availability: "Open to collaboration on interesting projects.",
     }
 }
 
-pub struct Profile {
-    name: String,
-    focus: Vec<String>,
-    projects: String,
-    learning_goals: Vec<String>,
-    availability: String,
+pub struct Profile<'a> {
+    name: &'a str,
+    focus: Vec<&'a str>,
+    projects: &'a str,
+    learning_goals: Vec<&'a str>,
+    availability: &'a str,
 }
 ```
 ## PS C:\Users\dev\skills>
@@ -64,46 +64,46 @@ pub struct Profile {
 // from low-level systems engineering to high-level application development.
 use std::collections::HashMap;
 
-struct Skills {
-    systems: HashMap<String, String>,
-    web: HashMap<String, String>,
-    cybersecurity: HashMap<String, String>,
+struct Skills<'a> {
+    systems: HashMap<&'a str, &'a str>,
+    web: HashMap<&'a str, &'a str>,
+    cybersecurity: HashMap<&'a str, &'a str>,
 }
 
 impl Skills {
     fn new() -> Self {
         let mut systems = HashMap::new();
         systems.insert(
-            String::from("Rust"),
-            String::from("Building robust, concurrent, and high-performance applications with a focus on safety and memory management. Experience with async/await, embedded systems, and creating CLI tools."),
+            "Rust",
+            "Building robust, concurrent applications with a focus on safety and memory management. Experience with async/await, embedded systems, and creating CLI tools.",
         );
         systems.insert(
-            String::from("C/C++"),
-            String::from("Developing embedded firmware, high-performance computing components, and tackling complex performance challenges. I focus on writing clean, efficient, and well-documented low-level code."),
+            "C/C++",
+            "Developing embedded firmware, and tackling complex performance challenges. I focus on writing clean, efficient, and well-documented low-level code.",
         );
         systems.insert(
-            String::from("Linux"),
-            String::from("Systems administration, scripting, and leveraging the command line for automation and development workflows."),
+            "Linux",
+            "Systems administration, scripting, and leveraging the command line for automation and development workflows.",
         );
 
         let mut web = HashMap::new();
         web.insert(
-            String::from("Python"),
-            String::from("Backend development using frameworks like Django and Flask, data processing, automation, and scripting. I prioritize clean, readable, and maintainable code."),
+            "Python",
+            "Backend development using frameworks like Django and Flask, data processing, automation, and scripting. I prioritize clean, readable, and maintainable code.",
         );
         web.insert(
-            String::from("Networking"),
-            String::from("Understanding of TCP/IP, sockets, and network security principles. Building network applications and services."),
+            "Networking",
+            "Understanding of TCP/IP, sockets, and network security principles. Building network applications and services.",
         );
 
         let mut cybersecurity = HashMap::new();
         cybersecurity.insert(
-            String::from("Ethical Hacking"),
-            String::from("Familiar with common vulnerabilities, penetration testing methodologies, and defensive programming."),
+            "Ethical Hacking",
+            "Familiar with common vulnerabilities, penetration testing methodologies, and defensive programming.",
         );
         cybersecurity.insert(
-            String::from("Cryptography"),
-            String::from("Implementing cryptographic algorithms and understanding their principles for secure communication."),
+            "Cryptography",
+            "Implementing cryptographic algorithms and understanding their principles for secure communication.",
         );
 
         Skills {
