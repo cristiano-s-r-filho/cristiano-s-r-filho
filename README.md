@@ -131,7 +131,7 @@ Here you will find a sample of my projects, reflecting my learning and areas of 
 
 I am always open to new connections and learning opportunities. Feel free to reach out:
 
-*   **LinkedIn:** [cristiano-santos-ribeiro-filho](https://www.linkedin.com/in/cristiano-santos-ribeiro-filho-1bb5272bb/)
+*   **LinkedIn:** [cristiano-s-r-f](https://www.linkedin.com/in/cristiano-s-r-f/)
 *   **Email:** cristiano.sr.filho@proton.me
 
 Thank you for visiting my profile!
