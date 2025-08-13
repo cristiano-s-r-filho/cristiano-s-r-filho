@@ -75,11 +75,11 @@ impl Skills {
         let mut systems = HashMap::new();
         systems.insert(
             "Rust",
-            "Building robust, concurrent applications with a focus on safety and memory management. Experience with async/await, embedded systems, and creating CLI tools.",
+            "Building robust, concurrent applications with a focus on safety and memory management.",
         );
         systems.insert(
             "C/C++",
-            "Developing embedded firmware, and tackling complex performance challenges. I focus on writing clean, efficient, and well-documented low-level code.",
+            "Developing embedded firmware, and tackling complex performance challenges.",
         );
         systems.insert(
             "Linux",
@@ -89,11 +89,11 @@ impl Skills {
         let mut web = HashMap::new();
         web.insert(
             "Python",
-            "Backend development using frameworks like Django and Flask, data processing, automation, and scripting. I prioritize clean, readable, and maintainable code.",
+            "Backend development using frameworks like Django and Flask, data processing, automation, and scripting..",
         );
         web.insert(
             "Networking",
-            "Understanding of TCP/IP, sockets, and network security principles. Building network applications and services.",
+            "Understanding of TCP/IP, sockets, and network security principles.",
         );
 
         let mut cybersecurity = HashMap::new();
