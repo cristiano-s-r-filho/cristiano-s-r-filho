@@ -1,25 +1,15 @@
 # Cristiano S.R.F. ---> A systems developer in the making... 
 ```rust
-          ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
-         █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
-         █░░░░░░░░[ FIREWALL ]░░░░░░░░░█
-         █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
-                         │
-            ┌────────────┴────────────┐
-            │                         │
-    ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄     ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
-   █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█    █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ █
-   █░ATTACKER░░░░░░░█───>█░PROXY░░░░░░░░░░ █
-   █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█    █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
-          │                         │
-          └────────────┬────────────┘
-                       │
-       ┌───────────────┴───────────────┐
-       │                               │
-   ▄▄▄▄▄▄▄▄▄▄▄▄▄    ▄▄▄▄▄▄▄▄▄▄▄▄▄     ▄▄▄▄▄▄▄▄▄▄▄▄▄
-  █▀▀▀▀▀▀▀▀▀▀▀▀█   █▀▀▀▀▀▀▀▀▀▀▀▀ █   █▀▀▀▀▀▀▀▀▀▀▀▀█
-  █░WORKSTATION░█──█░DATA CENTER █──>█░WORKSTATION█
-  █▄▄▄▄▄▄▄▄▄▄▄▄▄█  █▄▄▄▄▄▄▄▄▄▄▄▄▄█   █▄▄▄▄▄▄▄▄▄▄▄▄█
+ ▄▄▄          █     █░   ▓█████      ██████     ▒█████      ███▄ ▄███▓   ▓█████    
+▒████▄       ▓█░ █ ░█░   ▓█   ▀    ▒██    ▒    ▒██▒  ██▒   ▓██▒▀█▀ ██▒   ▓█   ▀    
+▒██  ▀█▄     ▒█░ █ ░█    ▒███      ░ ▓██▄      ▒██░  ██▒   ▓██    ▓██░   ▒███      
+░██▄▄▄▄██    ░█░ █ ░█    ▒▓█  ▄      ▒   ██▒   ▒██   ██░   ▒██    ▒██    ▒▓█  ▄    
+ ▓█   ▓██▒   ░░██▒██▓    ░▒████▒   ▒██████▒▒   ░ ████▓▒░   ▒██▒   ░██▒   ░▒████▒   
+ ▒▒   ▓▒█░   ░ ▓░▒ ▒     ░░ ▒░ ░   ▒ ▒▓▒ ▒ ░   ░ ▒░▒░▒░    ░ ▒░   ░  ░   ░░ ▒░ ░   
+  ▒   ▒▒ ░     ▒ ░ ░      ░ ░  ░   ░ ░▒  ░ ░     ░ ▒ ▒░    ░  ░      ░    ░ ░  ░   
+  ░   ▒        ░   ░        ░      ░  ░  ░     ░ ░ ░ ▒     ░      ░         ░      
+      ░  ░       ░          ░  ░         ░         ░ ░            ░         ░  ░   
+                                                                                   
 ```
 ## PS C:\Users\dev\profile>
 ```rust
@@ -56,62 +46,6 @@ pub struct Profile<'a> {
     projects: &'a str,
     learning_goals: Vec<&'a str>,
     availability: &'a str,
-}
-```
-## PS C:\Users\dev\skills>
-```rust
-// My skills are honed through practical experience in various domains,
-// from low-level systems engineering to high-level application development.
-use std::collections::HashMap;
-
-struct Skills<'a> {
-    systems: HashMap<&'a str, &'a str>,
-    web: HashMap<&'a str, &'a str>,
-    cybersecurity: HashMap<&'a str, &'a str>,
-}
-
-impl Skills {
-    fn new() -> Self {
-        let mut systems = HashMap::new();
-        systems.insert(
-            "Rust",
-            "Building robust, concurrent applications with a focus on safety and memory management.",
-        );
-        systems.insert(
-            "C/C++",
-            "Developing embedded firmware, and tackling complex performance challenges.",
-        );
-        systems.insert(
-            "Linux",
-            "Systems administration, scripting, and leveraging the command line for automation and development workflows.",
-        );
-
-        let mut web = HashMap::new();
-        web.insert(
-            "Python",
-            "Backend development using frameworks like Django and Flask, data processing, automation, and scripting..",
-        );
-        web.insert(
-            "Networking",
-            "Understanding of TCP/IP, sockets, and network security principles.",
-        );
-
-        let mut cybersecurity = HashMap::new();
-        cybersecurity.insert(
-            "Ethical Hacking",
-            "Familiar with common vulnerabilities, penetration testing methodologies, and defensive programming.",
-        );
-        cybersecurity.insert(
-            "Cryptography",
-            "Implementing cryptographic algorithms and understanding their principles for secure communication.",
-        );
-
-        Skills {
-            systems,
-            web,
-            cybersecurity,
-        }
-    }
 }
 ```
 
