@@ -1,73 +1,29 @@
-# Cristiano S.R.F. ---> A systems developer in the making... 
-```rust
- ▄▄▄          █     █░   ▓█████      ██████     ▒█████      ███▄ ▄███▓   ▓█████    
-▒████▄       ▓█░ █ ░█░   ▓█   ▀    ▒██    ▒    ▒██▒  ██▒   ▓██▒▀█▀ ██▒   ▓█   ▀    
-▒██  ▀█▄     ▒█░ █ ░█    ▒███      ░ ▓██▄      ▒██░  ██▒   ▓██    ▓██░   ▒███      
-░██▄▄▄▄██    ░█░ █ ░█    ▒▓█  ▄      ▒   ██▒   ▒██   ██░   ▒██    ▒██    ▒▓█  ▄    
- ▓█   ▓██▒   ░░██▒██▓    ░▒████▒   ▒██████▒▒   ░ ████▓▒░   ▒██▒   ░██▒   ░▒████▒   
- ▒▒   ▓▒█░   ░ ▓░▒ ▒     ░░ ▒░ ░   ▒ ▒▓▒ ▒ ░   ░ ▒░▒░▒░    ░ ▒░   ░  ░   ░░ ▒░ ░   
-  ▒   ▒▒ ░     ▒ ░ ░      ░ ░  ░   ░ ░▒  ░ ░     ░ ▒ ▒░    ░  ░      ░    ░ ░  ░   
-  ░   ▒        ░   ░        ░      ░  ░  ░     ░ ░ ░ ▒     ░      ░         ░      
-      ░  ░       ░          ░  ░         ░         ░ ░            ░         ░  ░   
-                                                                                   
-```
-## PS C:\Users\dev\profile>
-```rust
-/// A software engineer and curious problem-solver with a strong passion for
-/// systems-level programming, concurrent data structures, and robust security.
-/// I am focused on building efficient, reliable, and scalable applications.
-/// My journey is driven by the desire to understand and build complex systems
-/// from the ground up, whether it's a high-performance backend service or a
-/// secure embedded system.
+<div align="center">
 
-fn get_profile() -> Profile {
-    Profile {
-        name: "Cristiano S. R. F.",
-        focus: vec![
-            "Systems Programming",
-            "Cybersecurity",
-            "IoT",
-            "Embedded Systems",
-            "Mathematical Modeling",
-        ],
-        projects: "See pinned repositories for my latest work.",
-        learning_goals: vec![
-            "Advanced cryptography",
-            "Distributed systems design",
-            "Formal methods",
-        ],
-        availability: "Open to collaboration on interesting projects.",
-    }
-}
+# Cristiano S. R. F.
 
-pub struct Profile<'a> {
-    name: &'a str,
-    focus: Vec<&'a str>,
-    projects: &'a str,
-    learning_goals: Vec<&'a str>,
-    availability: &'a str,
-}
-```
+**Systems Developer**
 
-"The first principle is that you must not fool yourself—and you are the easiest person to fool." —> Richard Feynman
+[![Rust](https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white)](https://www.rust-lang.org/)
+[![C](https://img.shields.io/badge/C-000000?style=flat&logo=c&logoColor=white)](https://en.wikipedia.org/wiki/C_(programming_language))
+[![Python](https://img.shields.io/badge/Python-000000?style=flat&logo=python&logoColor=white)](https://www.python.org/)
+[![Embedded](https://img.shields.io/badge/Embedded-000000?style=flat&logo=raspberrypi&logoColor=white)](https://www.rust-lang.org/what/embedded)
+[![Security](https://img.shields.io/badge/Security-000000?style=flat&logo=letsencrypt&logoColor=white)](https://cwe.mitre.org/)
 
-"The scientist does not study nature because it is useful; he studies it because he delights in it, and he delights in it because it is beautiful." —> Henri Poincaré
+</div>
 
-## My Projects
+---
 
-Here you will find a sample of my projects, reflecting my learning and areas of interest. Each repository contains a detailed `README.md` explaining its purpose, technologies used, and key learnings.
+Writes software that's **correct**, **fast**, and **secure**. Rust, systems programming, embedded, and building things from scratch.
 
-*   **[my-portfolio](https://github.com/cristiano-s-r-filho/my-portfolio)**: My digital portfolio under construction, where I showcase a collection of my work and experiments.
-*   **[rust-c-asm](https://github.com/cristiano-s-r-filho/rust-c-asm)**: A project developed for the Computer Architecture course, exploring the interaction between Rust, C, and Assembly for low-level optimization.
-*   **[mdc_art_crm](https://github.com/cristiano-s-r-filho/mdc_art_crm)**: A CRM system developed in Python, focused on efficient data management and creating an intuitive user interface.
+### Projects
 
-## Connect With Me
+- **[cadmus](https://github.com/cristiano-s-r-filho/cadmus)** — Full-stack backend service (Rust + Postgres + Paseto)
+- **[telarex](https://github.com/cristiano-s-r-filho/telarex)** — P2P collaborative text editor with post-quantum crypto
+- **[rusty-arm-vm](https://github.com/cristiano-s-r-filho/rusty-arm-vm)** — ARM emulator written in Rust
+- **[look_inside](https://github.com/cristiano-s-r-filho/look_inside)** — CLI introspection tool
+- **[project-desk](https://github.com/cristiano-s-r-filho/project-desk)** — Project management tool
 
-I am always open to new connections and learning opportunities. Feel free to reach out:
+### Contact
 
-*   **LinkedIn:** [cristiano-s-r-f](https://www.linkedin.com/in/cristiano-s-r-f/)
-*   **Email:** cristiano.sr.filho@proton.me
-
-Thank you for visiting my profile!
-
-
+[LinkedIn](https://linkedin.com/in/cristiano-s-r-f) · [Email](mailto:cristiano.sr.filho@proton.me)
