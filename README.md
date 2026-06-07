@@ -1,20 +1,31 @@
-<div align="center">
-
-# Cristiano S. R. F.
-
-**Systems Developer**
-
-[![Rust](https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white)](https://www.rust-lang.org/)
-[![C](https://img.shields.io/badge/C-000000?style=flat&logo=c&logoColor=white)](https://en.wikipedia.org/wiki/C_(programming_language))
-[![Python](https://img.shields.io/badge/Python-000000?style=flat&logo=python&logoColor=white)](https://www.python.org/)
-[![Embedded](https://img.shields.io/badge/Embedded-000000?style=flat&logo=raspberrypi&logoColor=white)](https://www.rust-lang.org/what/embedded)
-[![Security](https://img.shields.io/badge/Security-000000?style=flat&logo=letsencrypt&logoColor=white)](https://cwe.mitre.org/)
-
-</div>
+<table>
+  <tr>
+    <td width="60%">
+      <h3>Cristiano S. R. F.</h3>
+      <strong>Systems Developer</strong>
+      <br><br>
+      <a href="https://www.rust-lang.org/"><img src="https://img.shields.io/badge/Rust-000?style=flat&logo=rust&logoColor=white" alt="Rust"></a>
+      <a href="https://en.wikipedia.org/wiki/C_(programming_language)"><img src="https://img.shields.io/badge/C-000?style=flat&logo=c&logoColor=white" alt="C"></a>
+      <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-000?style=flat&logo=python&logoColor=white" alt="Python"></a>
+      <a href="https://www.rust-lang.org/what/embedded"><img src="https://img.shields.io/badge/Embedded-000?style=flat&logo=raspberrypi&logoColor=white" alt="Embedded"></a>
+      <a href="https://cwe.mitre.org/"><img src="https://img.shields.io/badge/Security-000?style=flat&logo=letsencrypt&logoColor=white" alt="Security"></a>
+      <br><br>
+      Writes software that's <strong>correct</strong>, <strong>fast</strong>, and <strong>secure</strong> — systems programming, embedded, and building things from scratch.
+    </td>
+    <td width="40%" align="center">
+      <pre>
+ ██████╗███████╗██████╗ ███████╗
+██╔════╝██╔════╝██╔══██╗██╔════╝
+╚█████╗ ███████╗██████╔╝█████╗  
+ ╚═══██║╚════██║██╔══██╗██╔══╝  
+██████╔╝███████║██║  ██║██║     
+╚═════╝ ╚══════╝╚═╝  ╚═╝╚═╝     
+      </pre>
+    </td>
+  </tr>
+</table>
 
 ---
-
-Writes software that's **correct**, **fast**, and **secure**. Rust, systems programming, embedded, and building things from scratch.
 
 ### Projects
 
